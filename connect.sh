@@ -49,4 +49,4 @@ while (( "$#" )); do
 
   shift
 
-done | tee outpupt.txt
+done |tee output.txt
