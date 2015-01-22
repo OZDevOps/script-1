@@ -19,7 +19,7 @@ while (( "$#" )); do
 
   port=$1
 
-  if [ "$port" == "127.0.0.1" ]; then
+  if [ "$ipaddress" == "127.0.0.1" ]; then
       SUDO="sudo"
   else
       SUDO="ssh $ipaddress sudo"
@@ -49,4 +49,4 @@ while (( "$#" )); do
 
   shift
 
-done
+done | tee outpupt.txt
