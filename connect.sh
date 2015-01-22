@@ -1,4 +1,3 @@
-vagrant@web01:~$ cat connect.sh
 #!/usr/bin/env bash
 
 # pre-request
